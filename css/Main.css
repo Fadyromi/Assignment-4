@@ -1,0 +1,82 @@
+/* ========== Global ========== */
+header {
+  height: 100vh;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ========== Index1 ========== */
+.maindiv {
+  width: 100%;
+  margin-left: 70px;
+  height: 100vh;
+
+
+}
+
+.maindiv .intro {
+  border-right: 2px solid black;
+  height: 400px;
+
+}
+
+.maindiv .intro p {
+  font-size: 30px;
+
+}
+
+.maindiv .intro p span {
+  border-radius: 20px;
+  padding: 5px;
+  color: red;
+
+}
+
+.maindiv .data {
+  margin-top: 150px;
+  margin-left: 30px;
+
+  height: 400px;
+
+}
+
+/* ========== Index2 ========== */
+
+.maindiv .data1 {
+
+  margin-left: 50px;
+}
+
+.maindiv .data1 p {
+  height: 30px;
+
+}
+
+.maindiv .data1 p a {
+  padding-bottom: 2px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: 0.4s all;
+
+}
+
+a:hover {
+  border-bottom: 3px solid blue;
+
+}
+
+/* ========== Index3 ========== */
+
+
+.container .T-D {
+  height: 60px;
+  top: 35%;
+  left: 30%;
+  text-decoration: underline;
+  font-weight: 500;
+  color: crimson;
+  padding-block: 10px;
+  padding-inline: 10px;
+}
